@@ -1,0 +1,38 @@
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 12px;
+}
+
+table {
+  margin: auto;
+}
+
+input[type="text"]:hover {
+  border: 2px solid rgb(255, 192, 203);
+}
+
+input[type="submit"] {
+  width: 140px;
+  height: 60px;
+  background-color: rgb(255, 192, 203);
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: 0.4s;
+  position: relative;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(251, 212, 218);
+  width: 160px;
+}
+
+th {
+  width: fit-content;
+}
+
+* {
+  text-align: center !important;
+  font-family: arial;
+}
